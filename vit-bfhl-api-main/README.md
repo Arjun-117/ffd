@@ -17,22 +17,41 @@
 
 ## 📚 Table of Contents
 
-1. [🎯 Project Overview](#-project-overview)
-2. [🧠 Problem Analysis](#-problem-analysis)
-3. [🏗️ System Architecture](#️-system-architecture)
-4. [🔧 Technical Implementation](#-technical-implementation)
-5. [📁 Project Structure](#-project-structure)
-6. [⚙️ Core Algorithms](#️-core-algorithms)
-7. [🌐 API Documentation](#-api-documentation)
-8. [🚀 Deployment Process](#-deployment-process)
-9. [🧪 Testing Strategy](#-testing-strategy)
-10. [🔐 Security & Best Practices](#-security--best-practices)
-11. [📊 Performance Analysis](#-performance-analysis)
-12. [🎨 Web Interface](#-web-interface)
-13. [🔄 Development Workflow](#-development-workflow)
-14. [🎓 Learning Outcomes](#-learning-outcomes)
-15. [🔮 Advanced Concepts](#-advanced-concepts)
-16. [📈 Scalability & Future](#-scalability--future)
+1. [💻 Development Environment Setup](#-development-environment-setup)
+2. [🎯 Project Overview](#-project-overview)
+3. [🧠 Problem Analysis](#-problem-analysis)
+4. [🏗️ System Architecture](#️-system-architecture)
+5. [🔧 Technical Implementation](#-technical-implementation)
+6. [📁 Project Structure](#-project-structure)
+7. [⚙️ Core Algorithms](#️-core-algorithms)
+8. [🌐 API Documentation](#-api-documentation)
+9. [🚀 Deployment Process](#-deployment-process)
+10. [🧪 Testing Strategy](#-testing-strategy)
+11. [🔐 Security & Best Practices](#-security--best-practices)
+12. [📊 Performance Analysis](#-performance-analysis)
+13. [🎨 Web Interface](#-web-interface)
+14. [🔄 Development Workflow](#-development-workflow)
+15. [🎓 Learning Outcomes](#-learning-outcomes)
+16. [🔮 Advanced Concepts](#-advanced-concepts)
+17. [📈 Scalability & Future](#-scalability--future)
+
+---
+
+## 💻 Development Environment Setup
+
+This project is optimized for VS Code with GitHub Copilot support.
+
+### Using GitHub Copilot with Claude Models
+
+If you have GitHub Copilot Pro and want to use Claude Sonnet or Opus models for AI-assisted development:
+
+📖 **[See Complete Copilot + Claude Setup Guide](../COPILOT_CLAUDE_SETUP.md)**
+
+Quick setup:
+1. Ensure you have [GitHub Copilot Pro](https://github.com/settings/copilot)
+2. Open this repository in VS Code
+3. Install recommended extensions when prompted
+4. Claude models will be available in Copilot chat
 
 ---
 
