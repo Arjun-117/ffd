@@ -1,0 +1,20 @@
+{
+  "github.copilot.advanced": {
+    "debug.overrideEngine": "claude-3.5-sonnet"
+  },
+  "github.copilot.editor.enableCodeActions": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "github.copilot.chat.model": "claude-3.5-sonnet",
+  "github.copilot.completion.model": "claude-3.5-sonnet"
+}
