@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VS Code Settings for GitHub Copilot with Claude Models",
+  "description": "Workspace settings to configure GitHub Copilot to use Claude 3.5 Sonnet or Opus models",
+  "type": "object",
+  "properties": {
+    "github.copilot.advanced": {
+      "type": "object",
+      "description": "Advanced GitHub Copilot settings",
+      "properties": {
+        "debug.overrideEngine": {
+          "type": "string",
+          "description": "Override the AI model engine for debugging",
+          "enum": [
+            "claude-3.5-sonnet",
+            "claude-opus",
+            "claude-haiku",
+            "gpt-4",
+            "gpt-3.5-turbo"
+          ],
+          "default": "claude-3.5-sonnet"
+        }
+      }
+    },
+    "github.copilot.chat.model": {
+      "type": "string",
+      "description": "AI model to use for Copilot Chat",
+      "enum": [
+        "claude-3.5-sonnet",
+        "claude-opus",
+        "claude-haiku",
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "default": "claude-3.5-sonnet"
+    },
+    "github.copilot.completion.model": {
+      "type": "string",
+      "description": "AI model to use for code completions",
+      "enum": [
+        "claude-3.5-sonnet",
+        "claude-opus",
+        "claude-haiku",
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "default": "claude-3.5-sonnet"
+    },
+    "github.copilot.editor.enableCodeActions": {
+      "type": "boolean",
+      "description": "Enable Copilot code actions in the editor",
+      "default": true
+    },
+    "github.copilot.enable": {
+      "type": "object",
+      "description": "Enable or disable Copilot for specific file types",
+      "properties": {
+        "*": {
+          "type": "boolean",
+          "description": "Enable for all file types by default",
+          "default": true
+        }
+      }
+    },
+    "editor.inlineSuggest.enabled": {
+      "type": "boolean",
+      "description": "Enable inline suggestions",
+      "default": true
+    }
+  }
+}
